@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#A0C4C9"
+    tools:context=".extenral"
+>
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:hint="File name"
+        android:textColorHint="#fff"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:inputType="textPersonName"
+        />
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:hint="Text here ..."
+        android:textColorHint="#fff"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:inputType="textPersonName"
+
+        />
+    <Button
+        android:id="@+id/button_load"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:onClick="writeFile"
+        android:text="Save File"
+        android:background="@drawable/background_"/>
+
+
+</LinearLayout>
